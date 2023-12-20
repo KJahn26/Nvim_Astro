@@ -8,6 +8,7 @@ return {
         "css",
         "lua", 
         "luap", 
+        "php",
     })
   end,
 }
