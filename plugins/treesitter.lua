@@ -6,6 +6,8 @@ return {
       -- "lua"
         "html", 
         "css",
+        "lua", 
+        "luap", 
     })
   end,
 }
