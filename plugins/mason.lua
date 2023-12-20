@@ -10,6 +10,9 @@ return {
         -- "lua_ls",
           "jdtls",
           "tsserver",
+          "html", 
+          "cssls",
+          "emmet_ls",
       })
     end,
   },
