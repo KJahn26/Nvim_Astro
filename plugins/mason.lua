@@ -13,6 +13,7 @@ return {
           "html", 
           "cssls",
           "emmet_ls",
+          "lua_ls",
       })
     end,
   },
@@ -25,6 +26,8 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- "prettier",
         -- "stylua",
+          "stylua", 
+          "luacheck",
       })
     end,
   },
