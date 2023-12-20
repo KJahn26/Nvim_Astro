@@ -14,6 +14,7 @@ return {
           "cssls",
           "emmet_ls",
           "lua_ls",
+          "phpactor",
       })
     end,
   },
@@ -28,6 +29,7 @@ return {
         -- "stylua",
           "stylua", 
           "luacheck",
+          "php-cs-fixer",
       })
     end,
   },
@@ -38,6 +40,7 @@ return {
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- "python",
+          "php",
       })
     end,
   },
