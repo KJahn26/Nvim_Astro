@@ -2,4 +2,5 @@ return
 {
 
   {"mfussenegger/nvim-jdtls", enabled=false },
+{"jose-elias-alvarez/typescript.nvim", enabled=false},
 }
